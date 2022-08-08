@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #3a1532 0%, #65375a 1%, #a092a5 100%);
+}
+body .contenedor {
+  height: 500px;
+  max-width: 450;
+  background-color: rgb(240, 221, 233);
+  border-radius: 10px;
+  padding: 16px 25px;
+  position: absolute;
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+body header {
+  color: #333;
+  text-align: center;
+}
+body header h1 {
+  font-size: 21px;
+  font-weight: 500;
+}
+body header p {
+  color: #333;
+  font-size: 16px;
+}
+body .form {
+  margin: 20px 0 25px;
+}
+body .form input {
+  font-size: 18px;
+  padding: 0 10px;
+  height: 45px;
+}
+body .form #qr {
+  color: #333;
+  cursor: pointer;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(175, 202, 158) 0%, rgb(141, 174, 120) 50%, rgb(110, 143, 87) 100%);
+  background-size: 200% auto;
+  transition: all 0.5s ease-in-out;
+}
+body .form #qr:hover {
+  background-position: right;
+  transform: scale(1.03);
+}
+body .qr_code {
+  background: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 23px 0;
+  border-radius: 5px;
+  flex-direction: column;
+}
+body #descargar {
+  width: 35%;
+  border-radius: 15px;
+  padding: 8px !important;
+  margin-top: 12px !important;
+  margin: 0;
+  color: #ffffff;
+  background-color: rgb(68, 68, 68);
+  transition: 0.5s;
+}
+body #descargar:hover {
+  color: rgb(24, 24, 24);
+  background: #fff;
+}
+body img {
+  width: 150px;
+}/*# sourceMappingURL=style.css.map */

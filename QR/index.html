@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>QR Generator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>QR Code Generator</h1>
+             <p>Paste the URL to generate the QR code</p>
+        </header>
+
+        <div class="form">
+            <input type="text" class="form-control" placeholder="URL">
+            <button class="btn btn-primary" id="qr">Generate Code</button>
+        </div>
+        <div class="qr_code">
+            <img src="img/codigo-qr.png" alt="">
+        </div>
+
+    </div>
+
+<script src="js/qr.js"></script>
+<script src="js/FileSaver.min.js"></script>
+</body>
+</html>
